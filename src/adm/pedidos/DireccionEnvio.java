@@ -1,6 +1,6 @@
 package adm.pedidos;
 
-public class DireccionEnvio {
+public abstract class DireccionEnvio {
 	
 	private String referencia;
 

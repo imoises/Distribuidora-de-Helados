@@ -1,16 +1,10 @@
 package adm.pedidos;
 
-public class Cliente {
+public abstract class Cliente {
 	
 	private String email;
-	private String usuario;
-	private String contraseña;
 	
-	public void confirmarCargaDatos(){
-		
-	}
+	public abstract void confirmarCargaDatos();
 	
-	public void cancelarCargaDatos(){
-		
-	}
+	public abstract void cancelarCargaDatos();
 }

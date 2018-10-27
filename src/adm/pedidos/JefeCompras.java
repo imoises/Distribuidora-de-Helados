@@ -1,24 +1,17 @@
 package adm.pedidos;
 
-public class JefeCompras {
+public abstract class JefeCompras {
 	
 	private String usuario;
 	private String contraseña;
 	
-	public void registrarProducto(){
-		
-	}
-	
-	public void consultarProducto(){
-		
-	}
-	
-	public void modificarProducto(){
-		
-	}
-	
-	public void eliminarProducto(){
-		
-	}
+	public abstract void registrarOrdenDeConpra();
+	public abstract void consultarOrdenDeConpra();
+	public abstract void modificarOrdenDeConpra();
+	public abstract void candelarOrdenDeConpra();
+	public abstract void registrarInsumo();
+	public abstract void consultarInsumo();
+	public abstract void modificarInsumo();
+	public abstract void eliminarInsumo();
 	
 }
